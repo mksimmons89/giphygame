@@ -5,10 +5,20 @@ body{
   background: url('../images/america.jpg');
 }
 
-#main-container{
+.container{
   background-color: darkgrey;
   padding: 30px;
-  margin: 60px;
+  margin: 0 auto;
+  width: 900px;
+  height: auto;
+}
+
+.coolGifs{
+  height: auto;
+}
+
+.carousel-item{
+  height: auto;
 }
 
 footer{

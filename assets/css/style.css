@@ -1,0 +1,41 @@
+body{
+  font-size: 18px;
+  font-family: 'Glegoo', serif;
+  color: blue;
+  background: url('../images/america.jpg');
+}
+
+#main-container{
+  background-color: darkgrey;
+  padding: 30px;
+  margin: 60px;
+}
+
+footer{
+  background-color: darkgrey;
+  padding: 30px;
+  margin: 60px;
+  text-align: center;
+}
+
+
+h1{
+  background-color: red;
+  margin: 60px;
+  font-family: 'Monoton', cursive;
+  padding: 30px;
+}
+
+#results{
+  font-size: 30px;
+  font-family: 'Glegoo', serif;
+  text-align: center;
+  background-color: white;
+}
+
+#countdown{
+  font-size: 30px;
+  font-family: 'Glegoo', serif;
+background-color: yellow;
+  text-align: center;
+}

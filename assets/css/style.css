@@ -1,16 +1,31 @@
 body{
   font-size: 18px;
-  font-family: 'Glegoo', serif;
-  color: blue;
-  background: url('../images/america.jpg');
+ font-family: 'Joti One', cursive;
+  color: yellow;
+  background: url('../images/yas.jpg');
 }
 
 .container{
   background-color: darkgrey;
-  padding: 30px;
+  padding: 20px;
   margin: 0 auto;
   width: 900px;
   height: auto;
+  font-family: 'Joti One', cursive;
+}
+
+.searchContainer, #searchInput{
+  background-color: black;
+  padding: 30px, 80px, 30px, 30px;
+  margin: 0 auto;
+  width: 650px;
+  height: auto;
+  font-family: 'Joti One', cursive;
+}
+
+h4{
+  text-align: center;
+
 }
 
 .coolGifs{
@@ -30,22 +45,42 @@ footer{
 
 
 h1{
-  background-color: red;
+  background-color: black;
   margin: 60px;
-  font-family: 'Monoton', cursive;
+font-family: 'Joti One', cursive;
   padding: 30px;
+  text-align: center;
 }
 
 #results{
   font-size: 30px;
   font-family: 'Glegoo', serif;
   text-align: center;
-  background-color: white;
+  background-color: purple;
 }
 
-#countdown{
-  font-size: 30px;
-  font-family: 'Glegoo', serif;
+#submitButton{
+  font-size: 20px;
+color: darkgrey;
+font-family: 'Joti One', cursive;
 background-color: yellow;
   text-align: center;
+}
+
+
+.buttons, button{
+  background-color: black;
+  margin: 60px;
+  font-family: 'Monoton', cursive;
+  padding: 10px;
+  text-align: center;
+}
+
+
+.newDiv{
+  background-color: purple;
+}
+
+.carousel {
+  overflow: auto;
 }

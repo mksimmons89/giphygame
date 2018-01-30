@@ -27,7 +27,7 @@ $(".buttons").on("click", "button", function(e) {
 	e.preventDefault();
 	$('.coolGifs').empty();
 	var buttonText = $(this).attr("data-name");
-	var queryUrl = "http://api.giphy.com/v1/gifs/search?q=" + buttonText + "&limit=10&api_key=dc6zaTOxFJmzC";
+	var queryUrl = "https://api.giphy.com/v1/gifs/search?q=" + buttonText + "&limit=10&api_key=dc6zaTOxFJmzC";
 
 	$.ajax({
 		url: queryUrl,
